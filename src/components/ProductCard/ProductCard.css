@@ -1,0 +1,28 @@
+.product-card {
+  width: 22%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.price {
+  font-size: 18px;
+  color: #000;
+}
+
+.discount {
+  color: red;
+}
+
+.discount-message {
+  color: red;
+  font-size: 12px;
+}
+
+.sizes span {
+  margin-right: 5px;
+}

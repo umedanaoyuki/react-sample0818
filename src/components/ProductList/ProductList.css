@@ -1,0 +1,21 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* SP画面向けのメディアクエリ */
+@media (max-width: 768px) {
+  .product-card {
+    /* 2つ横並びにするために幅を調整 */
+    width: 50%;
+  }
+}
+
+/* 非常に小さいデバイスの場合 */
+@media (max-width: 480px) {
+  .product-card {
+    /* 一つずつ表示させる */
+    width: 100%;
+  }
+}

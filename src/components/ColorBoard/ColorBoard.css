@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.color-picker {
+  display: flex;
+  gap: 8px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.plus-icon {
+  display: flex;
+  font-size: 24px;
+  margin: 0 10px;
+  align-items: center;
+}
+
+.heart-icon {
+  font-size: 24px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
